@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Chicken House | Family Trays & Catering</title>
+    <!-- Tailwind CSS Script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandOrange: '#FF6F00',
+                        brandDark: '#1E1B18',
+                        brandCream: '#FAFAF6'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-brandCream text-brandDark scroll-smooth">
+
+    <!-- TOP HEADER BAR -->
+    <div class="bg-brandOrange text-white text-xs sm:text-sm py-2 px-4 sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
+            <p class="font-medium flex items-center gap-1">
+                📍 163 N. Domingo St., Balong Abato, San Juan City
+            </p>
+            <div class="flex flex-wrap justify-center gap-x-4 gap-y-1 font-semibold">
+                <span>📞 0922-878-1818</span>
+                <span>📞 0917-187-1883</span>
+                <span>📞 8463-1456 to 57</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <header class="relative bg-zinc-900 text-white py-20 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-30 bg-cover bg-center" style="background-image: url('image_eca381.jpg');"></div>
+        <div class="relative max-w-5xl mx-auto text-center z-10">
+            <h1 class="text-4xl sm:text-6xl font-bold tracking-tight mb-4 text-brandOrange">GOLDEN CHICKEN HOUSE</h1>
+            <p class="text-lg sm:text-xl max-w-2xl mx-auto text-zinc-300 mb-8">
+                Serving iconic, abundant Chinese-Filipino comfort classics perfect for family gatherings, office parties, and special occasions.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#menu" class="bg-brandOrange hover:bg-orange-600 transition text-white px-6 py-3 rounded-full font-semibold shadow-lg">
+                    Browse Family Trays
+                </a>
+                <a href="#contact" class="bg-white hover:bg-zinc-100 transition text-brandDark px-6 py-3 rounded-full font-semibold shadow-lg">
+                    Order Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- GALLERY HIGHLIGHTS -->
+    <section class="py-12 max-w-7xl mx-auto px-4">
+        <h2 class="text-2xl sm:text-3xl font-bold text-center mb-2">Our Signature Specialties</h2>
+        <p class="text-center text-zinc-500 mb-8">Freshly prepared, generously portioned, and ready to serve.</p>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-white p-2 rounded-xl shadow-sm group">
+                <div class="overflow-hidden rounded-lg h-48 bg-zinc-100">
+                    <img src="image_eca6a8.jpg" alt="Lumpiang Shanghai" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <p class="mt-2 text-center font-semibold text-sm">Lumpiang Shanghai</p>
+            </div>
+            <div class="bg-white p-2 rounded-xl shadow-sm group">
+                <div class="overflow-hidden rounded-lg h-48 bg-zinc-100">
+                    <img src="image_eca68d.jpg" alt="Fried Meatballs" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <p class="mt-2 text-center font-semibold text-sm">Fried Meatballs</p>
+            </div>
+            <div class="bg-white p-2 rounded-xl shadow-sm group">
+                <div class="overflow-hidden rounded-lg h-48 bg-zinc-100">
+                    <img src="image_eca3be.jpg" alt="Beef Button Mushroom" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <p class="mt-2 text-center font-semibold text-sm">Beef Button Mushroom</p>
+            </div>
+            <div class="bg-white p-2 rounded-xl shadow-sm group">
+                <div class="overflow-hidden rounded-lg h-48 bg-zinc-100">
+                    <img src="image_eca3c4.jpg" alt="Pata Tim / Pata Chamisua" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                </div>
+                <p class="mt-2 text-center font-semibold text-sm">Pata Celebrations</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKED MEALS INSPIRATION -->
+    <section class="bg-zinc-100 py-12 px-4">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8">
+            <div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-md">
+                <img src="image_eca381.jpg" alt="Packed Bento Trays" class="w-full h-auto object-cover">
+            </div>
+            <div class="w-full md:w-1/2">
+                <span class="text-brandOrange font-bold tracking-widest text-xs uppercase block mb-2">Corporate & Events</span>
+                <h2 class="text-2xl sm:text-3xl font-bold mb-4">Individual Packed Meals</h2>
+                <p class="text-zinc-600 mb-6 leading-relaxed">
+                    Need customized meals for your corporate meetings, seminars, or private parties? We assemble perfectly portioned individual lunch boxes featuring our signature mains, sides, pancit, and rice options.
+                </p>
+                <a href="#contact" class="inline-block border-2 border-brandOrange text-brandOrange hover:bg-brandOrange hover:text-white transition font-semibold px-5 py-2.5 rounded-lg text-sm">
+                    Inquire for Bulk Orders
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu" class="py-16 max-w-7xl mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold text-brandDark mb-2">Family Tray Menu</h2>
+            <div class="w-24 h-1 bg-brandOrange mx-auto mb-4"></div>
+            <div class="bg-orange-50 border border-orange-200 rounded-xl p-4 max-w-xl mx-auto inline-block text-sm">
+                <p class="font-semibold text-brandOrange">✨ Portion Serving Sizes:</p>
+                <p class="text-zinc-600"><strong>Full Tray:</strong> Good for 15-20 pax | <strong>Half Tray:</strong> Good for 8-10 pax</p>
+            </div>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="flex flex-wrap justify-center gap-2 mb-10" id="filter-container">
+            <button onclick="filterMenu('all')" class="menu-tab bg-brandOrange text-white px-4 py-2 rounded-full text-sm font-medium shadow-sm transition">All Dishes</button>
+            <button onclick="filterMenu('pansit')" class="menu-tab bg-white text-zinc-600 hover:bg-zinc-50 px-4 py-2 rounded-full text-sm font-medium shadow-sm transition">Special Pansit</button>
+            <button onclick="filterMenu('chicken')" class="menu-tab bg-white text-zinc-600 hover:bg-zinc-50 px-4 py-2 rounded-full text-sm font-medium shadow-sm transition">Chicken</button>
+            <button onclick="filterMenu('seafood')" class="menu-tab bg-white text-zinc-600 hover:bg-zinc-50 px-4 py-2 rounded-full text-sm font-medium shadow-sm transition">Sea Foods</button>
+            <button onclick="filterMenu('beef')" class="menu-tab bg-white text-zinc-600 hover:bg-zinc-50 px-4 py-2 rounded-full text-sm font-medium shadow-sm transition">Beef</button>
+            <button onclick="filterMenu('pork')" class="menu-tab bg-white text-zinc-600 hover:bg-zinc-50 px-4 py-2 rounded-full text-sm font-medium shadow-sm transition">Pork</button>
+            <button onclick="filterMenu('vegetables')" class="menu-tab bg-white text-zinc-600 hover:bg-zinc-50 px-4 py-2 rounded-full text-sm font-medium shadow-sm transition">Vegetables</button>
+            <button onclick="filterMenu('rice')" class="menu-tab bg-white text-zinc-600 hover:bg-zinc-50 px-4 py-2 rounded-full text-sm font-medium shadow-sm transition">Rice</button>
+        </div>
+
+        <!-- Menu Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="menu-grid">
+            <!-- Items are injected here dynamically via JS from image_eca6e2.jpg specifications -->
+        </div>
+    </section>
+
+    <!-- CONTACT / FOOTER SECTION -->
+    <footer id="contact" class="bg-brandDark text-zinc-300 pt-16 pb-8 px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 border-b border-zinc-800 pb-12 mb-8">
+            
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4">GOLDEN CHICKEN HOUSE</h3>
+                <p class="text-sm leading-relaxed text-zinc-400 mb-4">
+                    Thank you for your continous patronage, we would like to inform you that a certain part of your bill goes to the fuunds of GOLDEN FIRE & RESCUE VOLUNTEER UNIT INC. 
+                </p>
+                <p class="text-xs text-zinc-500">Prices valid as of 2026.</p>
+            </div>
+
+            <div>
+                <h3 class="text-white text-base font-bold mb-4">📞 Hotlines & Ordering</h3>
+                <ul class="space-y-2 text-sm text-zinc-400">
+                    <li><strong class="text-white">Smart / Sun:</strong> 0922-878-1818</li>
+                    <li><strong class="text-white">Globe:</strong> 0917-187-1883</li>
+                    <li><strong class="text-white">Landlines:</strong> 8724-7752 / 8726-0760</li>
+                    <li><strong class="text-white">Trunkline:</strong> 8463-1456 to 57</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white text-base font-bold mb-4">📲 Stay Connected</h3>
+                <ul class="space-y-3 text-sm">
+                    <li>
+                        <a href="https://facebook.com" class="text-zinc-400 hover:text-brandOrange flex items-center gap-2">
+                            📘 https://www.facebook.com/goldenchickenhouse
+                        </a>
+                    </li>
+                    <li>
+                    <li class="text-zinc-400 pt-2 text-xs">
+                        📍 163 N. Domingo St., Balong Abato, San Juan City
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto text-center text-xs text-zinc-600">
+            &copy; 2026 Golden Chicken House. All Rights Reserved. Layout generated dynamically using verified image data maps.
+        </div>
+    </footer>
+
+    <!-- JavaScript For Live Menu Filtering & Component Rendering -->
+    <script>
+        // High-fidelity structured dataset accurately parsed from menu reference guide image_eca6e2.jpg
+        const menuData = [
+            // SPECIAL PANSIT
+            { name: "Super Special Chamisua", category: "pansit", full: "1,610", half: "960" },
+            { name: "Bihon", category: "pansit", full: "1,325", half: "780" },
+            { name: "Miki Bihon", category: "pansit", full: "1,325", half: "780" },
+            { name: "Chami", category: "pansit", full: "1,325", half: "780" },
+            { name: "Spaghetti", category: "pansit", full: "1,325", half: "780" },
+            { name: "Sotanghon", category: "pansit", full: "1,380", half: "795" },
+            { name: "Sieng Chew Bihon", category: "pansit", full: "1,380", half: "795" },
+            { name: "Canton", category: "pansit", full: "1,380", half: "795" },
+            { name: "Chamisua", category: "pansit", full: "1,380", half: "795" },
+            { name: "Satemi", category: "pansit", full: "1,380", half: "795" },
+            { name: "Pata Bihon", category: "pansit", full: "1,875", half: "1,155" },
+
+            // CHICKEN
+            { name: "Pineapple Honey Fried Chicken", category: "chicken", full: "1,575", half: "1,020" },
+            { name: "Butter Chicken", category: "chicken", full: "1,575", half: "1,075" },
+            { name: "Shanghai Fried Chicken", category: "chicken", full: "1,605", half: "1,095" },
+            { name: "Chicken Barbeque", category: "chicken", full: "1,665", half: "1,135" },
+            { name: "Boneless Chicken", category: "chicken", full: "1,605", half: "1,095" },
+            { name: "Chicken Lollipop", category: "chicken", full: "1,575", half: "920" },
+            { name: "Chicken Curry", category: "chicken", full: "1,725", half: "1,010" },
+            { name: "Ginataang Manok", category: "chicken", full: "1,725", half: "1,010" },
+            { name: "Sambee Chicken", category: "chicken", full: "1,665", half: "815" },
+            { name: "Shanghai Wings", category: "chicken", full: "1,725", half: "1,010" },
+            { name: "Wings with Oyster Sauce", category: "chicken", full: "1,725", half: "1,010" },
+
+            // SEA FOODS
+            { name: "Alimasag with Egg", category: "seafood", full: "1,805", half: "885" },
+            { name: "Fried Shrimp balls", category: "seafood", full: "1,675", half: "980" },
+            { name: "Shrimp with Green peas", category: "seafood", full: "1,775", half: "1,040" },
+            { name: "Tokwa with Fish Fillet", category: "seafood", full: "1,555", half: "910" },
+            { name: "Tuna with Scrambled Egg", category: "seafood", full: "1,605", half: "940" },
+            { name: "Sweet and Sour Shrimp balls", category: "seafood", full: "1,755", half: "1,030" },
+            { name: "Sweet and Sour Fish Fillet", category: "seafood", full: "1,700", half: "1,020" },
+            { name: "Shrimp with Scrambled Egg", category: "seafood", full: "1,855", half: "1,090" },
+            { name: "Pusit Curry", category: "seafood", full: "1,755", half: "1,140" },
+            { name: "Pusit Guisado", category: "seafood", full: "1,755", half: "1,140" },
+
+            // BEEF
+            { name: "Beef Button Mushroom", category: "beef", full: "2,445", half: "1,600" },
+            { name: "Beef Curry", category: "beef", full: "1,595", half: "935" },
+            { name: "Beef Steak", category: "beef", full: "1,595", half: "935" },
+            { name: "Beef with Scrambled Egg", category: "beef", full: "1,675", half: "980" },
+            { name: "Tokwa Sili Beef", category: "beef", full: "1,675", half: "980" },
+
+            // PORK
+            { name: "Crispy Pata", category: "pork", full: "3,430", half: "1,715" },
+            { name: "Pata Tim", category: "pork", full: "3,430", half: "1,715" },
+            { name: "Fried Meatballs", category: "pork", full: "1,525", half: "890" },
+            { name: "Lumpiang Shanghai", category: "pork", full: "1,495", half: "875" },
+            { name: "Porkchop", category: "pork", full: "1,375", half: "885" },
+            { name: "Pork Barbecue", category: "pork", full: "1,275", half: "620" },
+            { name: "Porkchop Steak", category: "pork", full: "1,395", half: "1,010" },
+            { name: "Sweet and Sour Meatballs", category: "pork", full: "1,595", half: "935" },
+            { name: "Sweet and Sour Pork", category: "pork", full: "1,525", half: "1,035" },
+            { name: "Sweet and Sour Spare Ribs", category: "pork", full: "1,725", half: "1,010" },
+            { name: "Tokwa Baboy Guisado", category: "pork", full: "1,705", half: "1,000" },
+            { name: "Tokwa Sili Pork", category: "pork", full: "1,705", half: "1,000" },
+            { name: "Tokwa Pork", category: "pork", full: "1,705", half: "1,000" },
+            { name: "Adobo Tokwa Baboy", category: "pork", full: "1,575", half: "920" },
+            { name: "Pata Chamisua", category: "pork", full: "2,155", half: "—" },
+
+            // VEGETABLES
+            { name: "Beef with Ampalaya", category: "vegetables", full: "1,775", half: "1,040" },
+            { name: "Beef with Black Mushrooms", category: "vegetables", full: "1,625", half: "950" },
+            { name: "Beef Togue", category: "vegetables", full: "1,605", half: "940" },
+            { name: "Beef with Young Corn", category: "vegetables", full: "1,855", half: "1,090" },
+            { name: "Beef Broccoli", category: "vegetables", full: "1,925", half: "1,130" },
+            { name: "Broccoli and Mushroom", category: "vegetables", full: "1,925", half: "1,130" },
+            { name: "Chopsuey", category: "vegetables", full: "1,655", half: "950" },
+            { name: "Super Special Chopsuey", category: "vegetables", full: "1,755", half: "1,020" },
+            { name: "Chicken Meat Eggplant", category: "vegetables", full: "1,675", half: "980" },
+            { name: "Chicken Meat Togue", category: "vegetables", full: "1,625", half: "950" },
+            { name: "Gising Gising Guisado", category: "vegetables", full: "1,695", half: "975" },
+            { name: "Hipon Ampalaya", category: "vegetables", full: "1,955", half: "1,150" },
+            { name: "Pork Ampalaya", category: "vegetables", full: "1,725", half: "1,010" },
+            { name: "Fish Ampalaya", category: "vegetables", full: "1,855", half: "1,090" },
+            { name: "Beef with Eggplant", category: "vegetables", full: "1,635", half: "960" },
+            { name: "Beef with Celery", category: "vegetables", full: "1,855", half: "1,090" },
+
+            // RICE
+            { name: "Crab Rice", category: "rice", full: "1,275", half: "875" },
+            { name: "Fried Beef Rice", category: "rice", full: "1,050", half: "725" },
+            { name: "Fried Rice", category: "rice", full: "900", half: "625" },
+            { name: "Garlic Rice", category: "rice", full: "900", half: "625" },
+            { name: "Macao Fried Rice", category: "rice", full: "1,275", half: "875" },
+            { name: "Spicy Tuna Rice", category: "rice", full: "1,275", half: "875" },
+            { name: "Steed Rice", category: "rice", full: "600", half: "425" }
+        ];
+
+        function renderMenu(items) {
+            const container = document.getElementById('menu-grid');
+            container.innerHTML = '';
+            
+            items.forEach(item => {
+                const itemEl = document.createElement('div');
+                itemEl.className = "bg-white p-5 rounded-xl shadow-sm border border-zinc-100 flex flex-col justify-between hover:shadow-md transition";
+                itemEl.innerHTML = `
+                    <div>
+                        <span class="text-[10px] uppercase font-bold tracking-wider text-brandOrange bg-orange-50 px-2 py-0.5 rounded-md inline-block mb-2">${item.category}</span>
+                        <h3 class="font-bold text-zinc-800 text-base leading-tight">${item.name}</h3>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-zinc-100 grid grid-cols-2 text-center text-xs">
+                        <div class="border-r border-zinc-100">
+                            <p class="text-zinc-400 uppercase font-medium tracking-tight">Full Tray</p>
+                            <p class="text-brandDark font-bold text-sm mt-0.5">₱${item.full}</p>
+                        </div>
+                        <div>
+                            <p class="text-zinc-400 uppercase font-medium tracking-tight">Half Tray</p>
+                            <p class="text-brandDark font-bold text-sm mt-0.5">${item.half !== '—' ? '₱' + item.half : '—'}</p>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(itemEl);
+            });
+        }
+
+        function filterMenu(category) {
+            // Highlight current Active Tab button styling
+            const buttons = document.querySelectorAll('.menu-tab');
+            buttons.forEach(btn => {
+                btn.className = "menu-tab bg-white text-zinc-600 hover:bg-zinc-50 px-4 py-2 rounded-full text-sm font-medium shadow-sm transition";
+            });
+            
+            event.currentTarget.className = "menu-tab bg-brandOrange text-white px-4 py-2 rounded-full text-sm font-medium shadow-sm transition";
+
+            if (category === 'all') {
+                renderMenu(menuData);
+            } else {
+                const filtered = menuData.filter(i => i.category === category);
+                renderMenu(filtered);
+            }
+        }
+
+        // Run menu initialization on structural mounting load
+        renderMenu(menuData);
+    </script>
+</body>
+</html>
